@@ -45,7 +45,7 @@ void loop() {
   Audio* audio = new Audio(ADMP441);
  //Audio* audio = new Audio(M5STACKFIRE);
   audio->Record();
-  Serial.println("Recording Successfull");
+  Serial.println("Recording is in process");
   digitalWrite(led_1,0);
   digitalWrite(led_3,0);
   digitalWrite(led_2,1);
